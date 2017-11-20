@@ -33,7 +33,7 @@ namespace ArkDiscord
                 .AddSingleton(_client)
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
-            string botToken = "MzgwMzc1MDUzOTE4OTI4OTAw.DO3rbA.hOa346M7haE91SR-CoTZa0Yd3-4";
+            string botToken = "";
 
             _client.Log += Log;
 
